@@ -20,7 +20,7 @@ export default function Page() {
         } as React.CSSProperties
       }
     >
-      <AppSidebar variant="sidebar" collapsible="icon" />
+      <AppSidebar variant="sidebar" collapsible="none" />
       <SidebarInset>
         <SiteHeader />
         <div className="flex flex-1 flex-col">
